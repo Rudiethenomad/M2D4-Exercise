@@ -15,10 +15,31 @@ console.log(me)
 /* EXERCISE 2
 Write a piece of code to create an array of only ODD numbers from 1 to 100
  */
+/*
+const arr = []
+for (let n = 1; n <= 100; n++)
+{
+  if (n % 2 !== 0)
+  {
+    arr.push (n);
+  }
+}
+console.log(arr)
+*/
+//even though we have never covered the Math funcition I think #3 should be Math.random
 
 /* EXERCISE 3
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
  */
+/*
+const arr1 = []
+for (let n = 1; n <= 10; n++)
+{
+  const ran = Math.floor (Math.random() * 101 + 1);
+  arr1.push(ran);
+}
+console.log(arr1)
+*/
 
 /* EXERCISE 4
   Write a piece of code for getting only even numerical values from an array . 
