@@ -1,12 +1,16 @@
 /* EXERCISE 1
   Given the object below, write a piece of code for programmatically removing the last skill from the skills array inside the me object.
  */
-
+/*
 const me = {
   name: "Joh",
   lastName: "Doe",
   skills: ["javascript", "html", "css"],
 };
+me.skills.pop();
+console.log(me)
+*/
+
 
 /* EXERCISE 2
 Write a piece of code to create an array of only ODD numbers from 1 to 100
