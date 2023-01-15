@@ -141,9 +141,16 @@ console.log(arr6);
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
+/*
+const arr7 = ["Smoke","it","Deep"];
+for (let i = 0; i < arr7.length; i++)
+{
+  arr7[i] = arr7[i].length;
+  
+}
 
-
-
+console.log(arr7)
+*/
 /*
 const str = 'Beer, Buds and fresh POW POW, on the runs in the Mountains living the life Peace out Brother ;).  Answer:';
 
