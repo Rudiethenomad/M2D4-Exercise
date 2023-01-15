@@ -31,7 +31,7 @@ console.log(arr)
 /* EXERCISE 3
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
  */
-
+/*
 const arr1 = []
 for (let n = 1; n <= 10; n++)
 {
@@ -40,21 +40,21 @@ for (let n = 1; n <= 10; n++)
 }
 console.log(arr1);
 
-
+*/
 /* EXERCISE 4
   Write a piece of code for getting only even numerical values from an array . 
  */
-
-//const arr2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,21,25,22,29,30];
+const arr2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,21,25,22,29,30];
 
 const even = [];
-  for (let i = 0; i < arr1.length; i++)
+  for (let i = 0; i < arr2.length; i++)
   {
-    if (arr1[i] % 2 === 0) 
+    if (arr2[i] % 2 === 0) 
     {
-      even.push(arr1[i]);
+      even.push(arr2[i]);
     }
   }
+  console.log(even);
 
 /* EXERCISE 5
 Write a piece of code to sum up the numbers in an array
