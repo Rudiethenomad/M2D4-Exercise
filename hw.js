@@ -120,6 +120,23 @@ console.log(oddNumbers);
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
  */
 
+
+const arr6 = [];
+
+while (arr6.length < 10) {
+  const rand = Math.floor(Math.random() * 10 + 1);
+  if (!arr6.includes(rand)) {
+    arr6.push(rand);
+  }
+}
+
+console.log(arr6);
+
+
+
+
+
+
 /* EXERCISE 9
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
