@@ -44,6 +44,7 @@ console.log(arr1);
 /* EXERCISE 4
   Write a piece of code for getting only even numerical values from an array . 
  */
+/*
 const arr2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,21,25,22,29,30];
 
 const even = [];
@@ -55,11 +56,18 @@ const even = [];
     }
   }
   console.log(even);
-
+*/
 /* EXERCISE 5
 Write a piece of code to sum up the numbers in an array
  */
+const arr3 = [45,56,34,99,190,1000,1,-71];
+let total = 0;
+for (let i = 0; i < arr3.length; i++)
+{
+  total = total + arr3[i];
 
+}
+console.log (total);
 /* EXERCISE 6
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
