@@ -60,6 +60,7 @@ const even = [];
 /* EXERCISE 5
 Write a piece of code to sum up the numbers in an array
  */
+/*
 const arr3 = [45,56,34,99,190,1000,1,-71];
 let total = 0;
 for (let i = 0; i < arr3.length; i++)
@@ -68,13 +69,28 @@ for (let i = 0; i < arr3.length; i++)
 
 }
 console.log (total);
+*/
 /* EXERCISE 6
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
+const arr4 = [1,2,3,4,5,6,7];
+
+for (let i = 0; i < arr4.length; i++)
+{
+  if (typeof arr4[i] ==="number")
+  {
+    arr4[i] = arr4[i] +1;
+  }
+}
+console.log (arr4);
+
+
+
 
 /* EXERCISE 7 (EXTRA)
  Write a piece of code for deleting only even entries from an array.
 */
+
 
 /* EXERCISE 8
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
