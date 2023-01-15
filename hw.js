@@ -91,6 +91,7 @@ console.log (arr4);
 /* EXERCISE 7 (EXTRA)
  Write a piece of code for deleting only even entries from an array.
 */
+/*
 const arr5 =[1,2,3,4,5,6,7,8,9];
 const odd = []
 for (let i = 0; i < arr5.length; i++)
@@ -104,6 +105,17 @@ for (let i = 0; i < arr5.length; i++)
 }
 console.log(arr5);
 //console.log(odd);
+
+function removeEvens(numbers) {
+    return numbers.filter(n => n % 2 !== 0);
+}
+
+
+const oddNumbers = removeEvens([1, 2, 3, 4, 5,6,7,8,9]);
+console.log(oddNumbers);
+*/
+
+
 /* EXERCISE 8
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
  */
