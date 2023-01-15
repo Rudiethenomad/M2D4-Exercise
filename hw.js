@@ -144,8 +144,12 @@ console.log(arr6);
 
 
 
+/*
+const str = 'Beer, Buds and fresh POW POW, on the runs in the Mountains living the life Peace out Brother ;).  Answer:';
 
+console.log(`${str} ${str.length *4}`);
 
+*/
 
 
 
