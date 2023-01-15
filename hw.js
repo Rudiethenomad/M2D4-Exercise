@@ -142,16 +142,15 @@ console.log(arr6);
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 /*
-const arr7 = ["Smoke","it","Deep"];
+const arr7 = ["pull","on",""];
 for (let i = 0; i < arr7.length; i++)
 {
   arr7[i] = arr7[i].length;
   
 }
-
+removeComma();
 console.log(arr7)
-*/
-/*
+
 const str = 'Beer, Buds and fresh POW POW, on the runs in the Mountains living the life Peace out Brother ;).  Answer:';
 
 console.log(`${str} ${str.length *4}`);
