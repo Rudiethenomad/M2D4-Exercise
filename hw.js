@@ -73,11 +73,11 @@ console.log (total);
 /* EXERCISE 6
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
-const arr4 = [1,2,3,4,5,6,7];
+const arr4 = [1,2,3,4,5,6,7,8];
 
 for (let i = 0; i < arr4.length; i++)
 {
-  if (typeof arr4[i] ==="number")
+  if (typeof arr4[i] === "number")
   {
     arr4[i] = arr4[i] +1;
   }
@@ -85,6 +85,7 @@ for (let i = 0; i < arr4.length; i++)
 console.log (arr4);
 
 
+const arr6 = [5, 68, "john", 34, 85];
 
 
 /* EXERCISE 7 (EXTRA)
