@@ -298,10 +298,22 @@ const movies = [
 /* EXERCISE 12
     Write a piece of code to  find the oldest movie in the provided movies array.
 */
-
+let max = parseInt(movies[0].Year);
+let firstMovie;
+for (let i = 0; i < movies.length; i++)
+{
+  let parseYear = parseInt(movies[i].Year);
+  if (parseYear > max)
+  {
+    firstMovie = movies[i];
+  }
+}
+console.log (firstMovie);
 /* EXERCISE 13
     Write a piece of code to get the number of movies contained in the provided movies array.
 */
+let totalMovies = movies.length;
+console.log(totalMovies);
 
 /* EXERCISE 14
     Write a piece of code to create an array with just the titles of the movies contained in the provided movies array.
