@@ -1,7 +1,7 @@
 /* EXERCISE 1
   Given the object below, write a piece of code for programmatically removing the last skill from the skills array inside the me object.
  */
-/*
+
 const me = {
   name: "Joh",
   lastName: "Doe",
@@ -9,13 +9,13 @@ const me = {
 };
 me.skills.pop();
 console.log(me)
-*/
+
 
 
 /* EXERCISE 2
 Write a piece of code to create an array of only ODD numbers from 1 to 100
  */
-/*
+
 const arr = []
 for (let n = 1; n <= 100; n++)
 {
@@ -25,13 +25,15 @@ for (let n = 1; n <= 100; n++)
   }
 }
 console.log(arr)
-*/
+
+
+
 //even though we have never covered the Math funcition I think #3 should be Math.random
 
 /* EXERCISE 3
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 100 inclusive
  */
-/*
+
 const arr1 = []
 for (let n = 1; n <= 10; n++)
 {
@@ -40,11 +42,11 @@ for (let n = 1; n <= 10; n++)
 }
 console.log(arr1);
 
-*/
+
 /* EXERCISE 4
   Write a piece of code for getting only even numerical values from an array . 
  */
-/*
+
 const arr2 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,15,17,18,21,25,22,29,30];
 
 const even = [];
@@ -56,11 +58,14 @@ const even = [];
     }
   }
   console.log(even);
-*/
+
+
+
 /* EXERCISE 5
 Write a piece of code to sum up the numbers in an array
  */
-/*
+
+
 const arr3 = [45,56,34,99,190,1000,1,-71];
 let total = 0;
 for (let i = 0; i < arr3.length; i++)
@@ -69,11 +74,12 @@ for (let i = 0; i < arr3.length; i++)
 
 }
 console.log (total);
-*/
+
+
 /* EXERCISE 6
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
-/*
+
 const arr4 = [1,2,3,4,5,6,7,8];
 
 for (let i = 0; i < arr4.length; i++)
@@ -84,14 +90,14 @@ for (let i = 0; i < arr4.length; i++)
   }
 }
 console.log (arr4);
-*/
+
 
 
 
 /* EXERCISE 7 (EXTRA)
  Write a piece of code for deleting only even entries from an array.
 */
-/*
+
 const arr5 =[1,2,3,4,5,6,7,8,9];
 const odd = []
 for (let i = 0; i < arr5.length; i++)
@@ -113,14 +119,14 @@ function removeEvens(numbers) {
 
 const oddNumbers = removeEvens([1, 2, 3, 4, 5,6,7,8,9]);
 console.log(oddNumbers);
-*/
+
 
 
 /* EXERCISE 8
 Write a piece of code to create an array of 10 elements of random numbers in the range from 0 to 10 inclusive WITHOUT duplicates
  */
 
-/*
+
 const arr6 = [];
 
 while (arr6.length < 10) {
@@ -132,7 +138,7 @@ while (arr6.length < 10) {
 
 console.log(arr6);
 
-*/
+
 
 
 
@@ -141,21 +147,21 @@ console.log(arr6);
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
-/*
+
 const arr7 = ["pull","on",""];
 for (let i = 0; i < arr7.length; i++)
 {
   arr7[i] = arr7[i].length;
   
 }
-removeComma();
+//removeComma();
 console.log(arr7)
 
 const str = 'Beer, Buds and fresh POW POW, on the runs in the Mountains living the life Peace out Brother ;).  Answer:';
 
 console.log(`${str} ${str.length *4}`);
 
-*/
+
 
 
 
@@ -164,21 +170,21 @@ console.log(`${str} ${str.length *4}`);
  es:
  [1, 3, 5] ==> [5, 3, 1]
 */
-/*
+
  let arr8 = [2,1,8,"U",0];
  arr8.reverse();
 
  console.log(arr8);
-*/
+
 
 /* EXERCISE 11
  Write a piece of code for getting the maximum numerical value from an array.
 */
-/*
+
 let arr9 = [1,5,100,7,87,500];
 
 console.log(Math.max(...arr9));
-*/
+
 /* This movies array is used throughout the exercises. You're not supposed to alter it. */
 const movies = [
   {
@@ -298,7 +304,7 @@ const movies = [
 /* EXERCISE 12
     Write a piece of code to  find the oldest movie in the provided movies array.
 */
-/*
+
 let max = parseInt(movies[0].Year);
 let firstMovie;
 for (let i = 0; i < movies.length; i++)
@@ -310,32 +316,32 @@ for (let i = 0; i < movies.length; i++)
   }
 }
 console.log (firstMovie);
-*/
+
 /* EXERCISE 13
     Write a piece of code to get the number of movies contained in the provided movies array.
 */
-/*
+
 let totalMovies = movies.length;
 console.log(totalMovies);
-*/
+
 
 /* EXERCISE 14
     Write a piece of code to create an array with just the titles of the movies contained in the provided movies array.
 */
-/*
+
 const titles = [];
 for (let i = 0; i < movies.length; i++) 
 {
   titles.push(movies[i].Title);
 }
 console.log(titles);
-*/
+
 
 /* EXERCISE 15
    Write a piece of code to get only the movies produced in this millennium from the provided movies array.
 */
 
-/*
+
 const terribleMovies = [];
 for (let i = 0; i < movies.length; i++) 
 {
@@ -345,7 +351,7 @@ for (let i = 0; i < movies.length; i++)
   }
 }
 console.log(terribleMovies);
-*/
+
 
 /* EXERCISE 16
    Write a piece of code to get  the movie with the  id given below from the provided movies array.
@@ -371,7 +377,14 @@ console.log(movieSearch);
 /* EXERCISE 17
      Write a piece of code to get  the  the sum of all the years in which the movies in the provided movies array have been produced.
 */
+let productionYearSum =0;
+for (let i =0; i < movies.length; i++)
+{
+productionYearSum = productionYearSum + parseInt(movies[i].Year);
+}
+console.log(productionYearSum)
 
 /* EXERCISE 18
    Write a piece of code to get  all the movies in the provided movies array which contain the string value (provided below) in the title.
 */
+//String Value not provided
