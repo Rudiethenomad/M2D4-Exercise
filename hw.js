@@ -298,6 +298,7 @@ const movies = [
 /* EXERCISE 12
     Write a piece of code to  find the oldest movie in the provided movies array.
 */
+/*
 let max = parseInt(movies[0].Year);
 let firstMovie;
 for (let i = 0; i < movies.length; i++)
@@ -309,30 +310,63 @@ for (let i = 0; i < movies.length; i++)
   }
 }
 console.log (firstMovie);
+*/
 /* EXERCISE 13
     Write a piece of code to get the number of movies contained in the provided movies array.
 */
+/*
 let totalMovies = movies.length;
 console.log(totalMovies);
+*/
 
 /* EXERCISE 14
     Write a piece of code to create an array with just the titles of the movies contained in the provided movies array.
 */
+/*
 const titles = [];
 for (let i = 0; i < movies.length; i++) 
 {
   titles.push(movies[i].Title);
 }
 console.log(titles);
+*/
 
 /* EXERCISE 15
    Write a piece of code to get only the movies produced in this millennium from the provided movies array.
 */
 
+/*
+const terribleMovies = [];
+for (let i = 0; i < movies.length; i++) 
+{
+  if (parseInt(movies[i].Year) > 2000)
+  {
+    terribleMovies.push(movies[i]);
+  }
+}
+console.log(terribleMovies);
+*/
+
 /* EXERCISE 16
    Write a piece of code to get  the movie with the  id given below from the provided movies array.
 */
+
+//should be Lords of Dogtown
+
 const id = "tt0355702";
+
+let movieSearch;
+for (let i = 0; i < movies.length; i++)
+{
+  if (movies[i].imdbID === id)
+{
+  movieSearch = movies[i];
+  break;
+}
+  
+}
+console.log(movieSearch);
+
 
 /* EXERCISE 17
      Write a piece of code to get  the  the sum of all the years in which the movies in the provided movies array have been produced.
