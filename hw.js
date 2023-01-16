@@ -318,6 +318,12 @@ console.log(totalMovies);
 /* EXERCISE 14
     Write a piece of code to create an array with just the titles of the movies contained in the provided movies array.
 */
+const titles = [];
+for (let i = 0; i < movies.length; i++) 
+{
+  titles.push(movies[i].Title);
+}
+console.log(titles);
 
 /* EXERCISE 15
    Write a piece of code to get only the movies produced in this millennium from the provided movies array.
