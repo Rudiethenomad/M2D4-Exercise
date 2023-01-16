@@ -164,11 +164,21 @@ console.log(`${str} ${str.length *4}`);
  es:
  [1, 3, 5] ==> [5, 3, 1]
 */
+/*
+ let arr8 = [2,1,8,"U",0];
+ arr8.reverse();
+
+ console.log(arr8);
+*/
 
 /* EXERCISE 11
  Write a piece of code for getting the maximum numerical value from an array.
 */
+/*
+let arr9 = [1,5,100,7,87,500];
 
+console.log(Math.max(...arr9));
+*/
 /* This movies array is used throughout the exercises. You're not supposed to alter it. */
 const movies = [
   {
